@@ -1,0 +1,17 @@
+package com.bridgeit.file;
+
+import java.io.File;
+
+public class DeleteFile {
+
+	public static void main(String[] args) {
+
+		File file = new File("/JavaIo/name.txt");
+		if (file.delete()) {
+			System.out.println("/JavaIo/name.txt" + " File deleted..");
+		} else {
+			System.out.println("/JavaIo/name.txt" + " File does not bexist..");
+		}
+	}
+
+}

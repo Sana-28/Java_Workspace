@@ -1,0 +1,13 @@
+package com.bridgeit.file;
+
+public class CreateFile {
+
+	public static void main(String[] args) {
+		
+		String fileSeparator=System.getProperty("file.separator");
+		//System.out.println(fileSeparator);
+
+		String absoluteFilePath=fileSeparator+"Users"
+	}
+
+}

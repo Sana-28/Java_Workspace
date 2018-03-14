@@ -1,0 +1,5 @@
+package com.bridgeit.logger;
+
+public class Log4JExample {
+
+}

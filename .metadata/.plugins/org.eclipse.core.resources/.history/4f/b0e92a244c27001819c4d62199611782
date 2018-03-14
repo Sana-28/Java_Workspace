@@ -1,0 +1,11 @@
+package com.bridgeit.file;
+
+public class FileOutputStream {
+
+	public static void main(String[] args) {
+
+		String fileData = "Abc";
+		FileOutputStream=
+
+	}
+}

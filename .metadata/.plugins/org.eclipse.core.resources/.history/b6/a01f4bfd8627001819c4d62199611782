@@ -1,0 +1,11 @@
+package com.bridgeit.abstractJava;
+
+public class Pulser extends Bike {
+
+	@Override
+	public void run() {
+		System.out.println("Run Safely..");
+		
+	}
+
+}

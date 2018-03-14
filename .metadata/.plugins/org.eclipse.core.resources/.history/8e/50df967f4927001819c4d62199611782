@@ -1,0 +1,16 @@
+package com.bridgeit.file;
+
+public class CreateFile {
+
+	public static void main(String[] args) {
+
+		String fileSeparator = System.getProperty("file.separator");
+		// System.out.println(fileSeparator);
+
+		String absoluteFilePath = fileSeparator + "home" + fileSeparator + "bridgelabz" + fileSeparator
+				+ "JavaWorkspace" + fileSeparator + "JavaIo" + fileSeparator + "src" + fileSeparator + "com"
+				+ fileSeparator + "bridgeit" + fileSeparator+"file"+fileSeparator+"file1.txt";
+		//System.out.println(absoluteFilePath);
+	}
+
+}

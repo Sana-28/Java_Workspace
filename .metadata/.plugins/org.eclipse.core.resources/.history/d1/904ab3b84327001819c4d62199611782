@@ -1,0 +1,9 @@
+package com.bridgeit.file;
+
+import java.io.File;
+
+public class FileSep {
+
+	File fileSafe = new File("tmp" + File.separator + "abc.txt");
+
+}

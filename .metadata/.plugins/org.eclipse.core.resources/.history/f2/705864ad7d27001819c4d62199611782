@@ -1,0 +1,20 @@
+package com.bridgeit.log;
+
+import java.util.logging.LogManager;
+import java.util.logging.Logger;
+
+public class LoggingExample {
+
+	static Logger logger = Logger.getLogger(com.bridgeit.log.LoggingExample.class.getName());
+
+	public static void main(String[] args) {
+		
+try{
+	LogManager.getLogManager()
+}
+catch(SecurityException e){
+	
+}
+	}
+
+}

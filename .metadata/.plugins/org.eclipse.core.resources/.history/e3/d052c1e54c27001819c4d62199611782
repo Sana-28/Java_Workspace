@@ -1,0 +1,15 @@
+package com.bridgeit.file;
+
+import java.io.FileNotFoundException;
+import java.io.OutputStream;
+
+public class FileOutputStream {
+
+	public static void main(String[] args) throws FileNotFoundException {
+
+		String fileData = "Abc";
+		OutputStream fileOutputStream = new java.io.FileOutputStream("name.txt");
+		
+
+	}
+}

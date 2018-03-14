@@ -1,0 +1,12 @@
+package com.bridgeit.logger;
+
+import java.util.logging.Logger;
+
+public class Log4JLogClass {
+	
+	static Logger logger=Logger.getLogger(Log4JLogClass.class.getName());
+	public static void main(String args[]){
+		
+	}
+
+}

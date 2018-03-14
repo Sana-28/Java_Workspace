@@ -1,0 +1,9 @@
+package com.bridgeit.logger;
+
+public class Log4JLogClass {
+	
+	public static void main(String args[]){
+		
+	}
+
+}

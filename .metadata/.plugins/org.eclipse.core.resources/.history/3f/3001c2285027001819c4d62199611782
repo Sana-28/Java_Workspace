@@ -1,0 +1,9 @@
+package com.bridgeit.file;
+
+public class DeleteFile {
+
+	public static void main(String[] args) {
+
+	}
+
+}

@@ -1,0 +1,22 @@
+package com.bridgeit.log;
+
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.util.logging.LogManager;
+import java.util.logging.Logger;
+
+public class LoggingExample {
+
+	static Logger logger = Logger.getLogger(com.bridgeit.log.LoggingExample.class.getName());
+
+	public static void main(String[] args) {
+
+		try {
+			LogManager.getLogManager().readConfiguration(
+					new FileInputStream("/home/bridgelabz/JavaWorkspace/JavaLogging/src/com/bridgeit/log/file1.txt"));
+		} catch (SecurityException | IOException e) {
+			e.printStackTrace();
+		}
+	}
+
+}

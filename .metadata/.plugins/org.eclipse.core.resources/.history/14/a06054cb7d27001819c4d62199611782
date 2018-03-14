@@ -1,0 +1,20 @@
+package com.bridgeit.log;
+
+import java.io.FileInputStream;
+import java.util.logging.LogManager;
+import java.util.logging.Logger;
+
+public class LoggingExample {
+
+	static Logger logger = Logger.getLogger(com.bridgeit.log.LoggingExample.class.getName());
+
+	public static void main(String[] args) {
+
+		try {
+			LogManager.getLogManager().readConfiguration(new FileInputStream("file1.txt"));
+		} catch (SecurityException e) {
+
+		}
+	}
+
+}

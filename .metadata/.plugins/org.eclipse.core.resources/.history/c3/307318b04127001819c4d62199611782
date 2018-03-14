@@ -1,0 +1,10 @@
+package com.bridgeit.file;
+
+import java.io.File;
+
+public class FileSeparator {
+
+	public static void main(String[] args) {
+		System.out.println("File.separator="+File.separator);
+	}
+}
