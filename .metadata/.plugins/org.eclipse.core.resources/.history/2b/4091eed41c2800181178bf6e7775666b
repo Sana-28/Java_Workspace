@@ -1,0 +1,10 @@
+package com.bridgeit.interfaceJava;
+
+public class B implements A{
+
+	@Override
+	public void show() {
+		// TODO Auto-generated method stub
+		
+	}
+}

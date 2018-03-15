@@ -1,0 +1,6 @@
+package com.bridgeit.interfaceJava;
+
+public interface A {
+ 
+	public void show();
+}

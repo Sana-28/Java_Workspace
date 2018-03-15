@@ -1,0 +1,10 @@
+package com.bridgeit.staticMethod;
+
+public interface Drawable {
+	// Static method can be defined inside interface in Java8 and cannot declare
+	// it to be static
+	static void show() {
+		System.out.println("Defination of Static method inside interface..");
+	}
+
+}

@@ -1,0 +1,9 @@
+package com.bridgeit.interfaceJava8;
+
+public interface A {
+
+	void add();
+	static void show(){
+		System.out.println("");
+	}
+}

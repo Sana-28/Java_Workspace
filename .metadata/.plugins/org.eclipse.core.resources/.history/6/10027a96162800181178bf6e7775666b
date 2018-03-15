@@ -1,0 +1,9 @@
+package com.bridgeit.abstractJava1;
+
+public class Honda extends Bike {
+
+	@Override
+	void run() {
+		System.out.println("Run safely..");
+	}
+}

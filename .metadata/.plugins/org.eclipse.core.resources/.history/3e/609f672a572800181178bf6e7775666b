@@ -1,0 +1,10 @@
+package com.bridgeit.test;
+
+public class Xyz implements Abc{
+
+	public void show() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

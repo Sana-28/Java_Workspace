@@ -1,0 +1,9 @@
+package com.bridgeit.abstractJava1;
+
+public class Pulser extends Bike {
+
+	@Override
+	void run() {
+
+	}
+}

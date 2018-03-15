@@ -1,0 +1,11 @@
+package com.bridgeit.interfaceJava8;
+
+public class Test {
+
+	public static void main(String[] args) {
+
+		A object=()->System.out.println("Calling add method of interface..");
+		object.add();
+		object.
+	}
+}

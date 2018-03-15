@@ -1,0 +1,10 @@
+package com.bridgeit.interfaceJava;
+
+public class Testing implements TestingOverrride {
+
+	@Override
+	public void testing() {
+		// TODO Auto-generated method stub
+		
+	}
+}

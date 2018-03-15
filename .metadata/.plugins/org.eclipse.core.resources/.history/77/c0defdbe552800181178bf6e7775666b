@@ -1,0 +1,5 @@
+package com.bridgeit.interfaceJava;
+
+public interface TestingOverrride {
+
+}

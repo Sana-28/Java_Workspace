@@ -1,0 +1,10 @@
+package com.bridgeit.bankAbstraction;
+
+public class SBI extends Bank {
+
+	@Override
+	int rateOfInterest() {
+
+		return 50;
+	}
+}

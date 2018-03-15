@@ -1,0 +1,10 @@
+package com.bridgeit.regex;
+
+public class RegexExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

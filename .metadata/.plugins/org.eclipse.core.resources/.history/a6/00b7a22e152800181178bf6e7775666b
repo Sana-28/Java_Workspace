@@ -1,0 +1,6 @@
+package com.bridgeit.abstractJava1;
+
+public abstract class Bike {
+
+	abstract void run();
+}

@@ -1,0 +1,11 @@
+package com.bridgeit.abstractJava1;
+
+/**
+ * Purpose: An abstract class can have data member, abstract method, method
+ * body, constructor and even main() method.
+ *
+ */
+public abstract class Bike {
+
+	abstract void run();
+}

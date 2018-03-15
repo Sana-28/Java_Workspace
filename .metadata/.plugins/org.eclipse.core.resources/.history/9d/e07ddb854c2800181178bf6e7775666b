@@ -1,0 +1,13 @@
+package com.bridgeit.regex;
+
+import java.util.regex.Pattern;
+
+public class RegexCharClass {
+
+	public static void main(String[] args) {
+		
+	Pattern.compile("[abc]").matcher("b").matches();
+	
+
+	}
+}

@@ -1,0 +1,13 @@
+package com.bridgeit.staticMethod;
+
+public class Test {
+
+	public static void main(String[] args) {
+		
+		//Drawable.cube(3);
+		System.out.println(Drawable.cube(3));
+		Drawable.show();
+
+	}
+
+}

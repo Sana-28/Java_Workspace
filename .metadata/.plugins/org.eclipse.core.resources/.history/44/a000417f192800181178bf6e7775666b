@@ -1,0 +1,10 @@
+package com.bridgeit.abstractJava;
+
+/**
+ * Bike the abstract class that contains only one abstract method run. It
+ * implementation is provided by the Honda class.
+ */
+public abstract class Bike {
+
+	public abstract void run();
+}

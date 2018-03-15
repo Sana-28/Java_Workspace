@@ -1,0 +1,9 @@
+package com.bridgeit.interfaceJava8;
+
+public class Test {
+
+	public static void main(String[] args) {
+
+		A object=()->System.out.println("Calling static method of interface..");
+	}
+}

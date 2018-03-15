@@ -1,0 +1,5 @@
+#types:
+
+1.Marker Interface-> Without any methods.
+2.SAM->Single Abstract Method->Called functional interface in java1.8
+3.Normal

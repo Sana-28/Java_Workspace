@@ -1,0 +1,9 @@
+package com.bridgeit.nestedInterface;
+
+public class NestedInterface {
+
+	public static void main(String[] args) {
+
+	}
+
+}

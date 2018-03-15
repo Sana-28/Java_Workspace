@@ -1,0 +1,22 @@
+package com.bridgeit.regex;
+
+import java.util.Scanner;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+public class CheckRegex {
+
+	public static void main(String[] args) {
+
+		Scanner scanner = new Scanner(System.in);
+		while (true) {
+			System.out.println("Enter the regular expression:");
+			Pattern pattern = Pattern.compile(scanner.nextLine());
+			
+			System.out.println("Enter the text to match:");
+			Matcher matcher=pattern.matcher(scanner.nextLine());
+
+		}
+	}
+
+}

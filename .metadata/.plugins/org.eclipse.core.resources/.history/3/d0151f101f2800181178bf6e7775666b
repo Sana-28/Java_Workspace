@@ -1,0 +1,11 @@
+package com.bridgeit.testInterface;
+
+public class Test1 {
+
+	public static void main(String[] args) {
+		
+		Abc object=new AbcImpl();
+
+	}
+
+}

@@ -1,0 +1,16 @@
+Rule1: If there is any abstract method in a class, that class must be abstract.
+
+Rule2: If you are extending any abstract class that have abstract method, you 
+      must either provide the implementation of the method or make this class abstract.
+
+#Asbstract class in JAva:
+	A class that is declared with abstract keyword, is known as abstract class in java.
+	It can have abstract and non-abstract methods (method with body).
+	Before learning java abstract class, let's understand the abstraction in java first.
+	  
+#Abstraction in Java
+	Abstraction is a process of hiding the implementation details and showing only functionality to the user.
+	Another way, it shows only important things to the user and hides the internal details for example sending
+	sms, you just type the text and send the message. You don't know the internal processing about the message
+	delivery.
+	Abstraction lets you focus on what the object does instead of how it does it.

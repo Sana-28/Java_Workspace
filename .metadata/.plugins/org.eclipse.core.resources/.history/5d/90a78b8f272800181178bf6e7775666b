@@ -1,0 +1,20 @@
+package com.bridgeit.interfaceJava8;
+
+public interface A {
+
+	void add();
+	
+	//Not possible for default method
+	/*public default boolean equals(Object object){
+		return true;
+	}*/
+	
+	//cannot be called static method
+	static void show(){
+		System.out.println("Defination of Static method inside interface..");
+	}
+	
+	default void showDefault(){
+		System.out.println("Defination of Default method inside interface..");
+	}
+}

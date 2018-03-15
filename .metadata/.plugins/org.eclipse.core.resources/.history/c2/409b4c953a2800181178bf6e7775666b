@@ -1,0 +1,14 @@
+package com.bridgeit.nestedInterface;
+
+public class NestedInterface implements A.B {
+
+	public static void main(String[] args) {
+		A.B bObject = new NestedInterface();
+		bObject.showB();
+	}
+
+	@Override
+	public void showB() {
+		System.out.println("Nested Interface B..");
+	}
+}

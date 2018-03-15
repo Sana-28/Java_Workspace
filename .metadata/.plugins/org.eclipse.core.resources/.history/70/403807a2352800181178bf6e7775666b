@@ -1,0 +1,9 @@
+package com.bridgeit.nestedInterface;
+
+public interface A {
+	void show();
+
+	interface B {
+		void show();
+	}
+}

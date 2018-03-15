@@ -1,0 +1,10 @@
+package com.bridgeit.testAbstraction;
+
+public abstract class Shape {
+	
+	abstract void draw();
+	
+	void print() {
+	}
+}
+

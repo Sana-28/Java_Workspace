@@ -1,0 +1,17 @@
+package com.bridgeit.regex;
+
+import java.util.regex.Pattern;
+
+/**
+ * WAP regular expression that accepts alpha numeric characters only. Its length
+ * must be __ characters long only.
+ *
+ */
+public class Regex6Char {
+
+	public static void main(String[] args) {
+
+		System.out.println(Pattern.matches("[a-zA-Z0-9]{4}", "sana"));
+		System.out.println(Pattern.matches("[a-zA-Z0-9]{6}", "sana28"));
+	}
+}

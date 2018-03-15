@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;JavaAbstraction/Abstract.txt&apos; to &apos;AbstractJava.txt&apos;" description="Rename resource &apos;Abstract.txt&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Abstract.txt" name="AbstractJava.txt" stamp="1521094807279" updateReferences="true"/>
+</session>

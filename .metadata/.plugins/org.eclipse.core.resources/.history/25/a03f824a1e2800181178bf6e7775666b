@@ -1,0 +1,6 @@
+package com.bridgeit.testInterface;
+
+public interface Abc {
+
+	void show();
+}

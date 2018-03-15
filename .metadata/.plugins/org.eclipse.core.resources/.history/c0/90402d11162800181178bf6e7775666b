@@ -1,0 +1,7 @@
+package com.bridgeit.abstractJava1;
+
+public class TestBike {
+	
+	Bike bike=new Pulser();
+	bike.
+}

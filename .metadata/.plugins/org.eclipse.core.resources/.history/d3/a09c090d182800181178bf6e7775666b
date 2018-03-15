@@ -1,0 +1,3 @@
+Rule: If there is any abstract method in a class, that class must be abstract.
+Rule: If you are extending any abstract class that have abstract method, you 
+      must either provide the implementation of the method or make this class abstract.

@@ -1,0 +1,12 @@
+package com.bridgeit.abstractJava1;
+
+public class TestBike {
+
+	public static void main(String args[]) {
+
+		Bike bikeObject;
+		bikeObject = new Honda();
+		bikeObject.run();
+		bikeObject.changeGear();
+	}
+}

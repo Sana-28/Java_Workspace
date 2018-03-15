@@ -1,0 +1,18 @@
+package com.bridgeit.testInterface;
+/*
+interface Test {
+
+	void show();
+}
+*/
+/*
+ * class AbcImpl implements Abc{
+ * 
+ * }
+ */
+
+public class Test {
+	public static void main(String args[]){
+		
+	}
+}

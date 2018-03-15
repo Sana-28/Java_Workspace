@@ -1,0 +1,5 @@
+package com.briodgeit.interfaceJava8;
+
+public interface A {
+
+}

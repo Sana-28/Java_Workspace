@@ -1,0 +1,15 @@
+package com.bridgeit.regex;
+
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+public class TestRegex {
+
+	public static void main(String[] args) {
+
+		Pattern pattern = Pattern.compile(".b");
+		Matcher matcher=pattern.matcher("ab");
+		boolean bool=matcher.matches();
+		System.out.println(bool);
+	}
+}

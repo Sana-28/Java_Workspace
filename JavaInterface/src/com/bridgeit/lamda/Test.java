@@ -1,0 +1,10 @@
+package com.bridgeit.lamda;
+
+public class Test {
+
+	public static void main(String[] args) {
+		A object=()-> System.out.println("Using lamda expression of Java1.8 calling show() method");
+		object.show();
+	}
+
+}
