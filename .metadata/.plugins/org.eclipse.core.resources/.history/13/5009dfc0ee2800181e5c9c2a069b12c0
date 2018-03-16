@@ -1,0 +1,21 @@
+package com.bridgeit.addAllMethod;
+
+import java.util.ArrayList;
+
+public class Test {
+
+	public static void main(String[] args) {
+
+		Student student=new Student("abc");
+		Student student2=new Student("xyz");
+		Student student3=new Student("Asli");
+		
+		ArrayList<Student> list = new ArrayList<>();
+		list.add(student);
+		list.add(student2);
+		list.add(student3);
+		list.addAll(list);
+		System.out.println(list);
+	}
+
+}

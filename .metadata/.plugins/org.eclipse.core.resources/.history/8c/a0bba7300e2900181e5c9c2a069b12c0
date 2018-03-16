@@ -1,0 +1,9 @@
+package com.bridgeit.hashSet2;
+
+public class Book {
+	
+	int id;
+	String name;
+	String author;
+
+}

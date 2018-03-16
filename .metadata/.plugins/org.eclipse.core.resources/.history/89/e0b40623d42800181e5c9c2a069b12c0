@@ -1,0 +1,14 @@
+package com.bridgeit.generic;
+
+import java.util.*;
+
+public class Test {
+
+	public static void main(String[] args) {
+
+		List list = new ArrayList();
+		list.add("abc");
+	list.add(new Integer(5));
+	}
+
+}

@@ -1,0 +1,14 @@
+package com.bridgeit.list;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ListExample {
+
+	public static <E> void main(String[] args) {
+
+		List<E> stringList=new ArrayList<>();
+		int size=stringList.size();
+		stringList.add(0, (E) "12");
+	}
+}

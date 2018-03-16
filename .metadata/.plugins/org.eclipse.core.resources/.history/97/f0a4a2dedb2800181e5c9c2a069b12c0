@@ -1,0 +1,18 @@
+package com.bridgeit.nonGeneric;
+
+import java.util.ArrayList;
+
+public class Demo {
+
+	public static void main(String[] args) {
+
+		ArrayList list = new ArrayList();
+		list.add("1243");
+		list.add("abc");
+		list.add("xyz");
+		
+		System.out.println("Elements of list:"+list);
+		System.out.println("Size of list:"+list.size());
+		System.out.println("Check list is empty?:"list.isEmpty());
+	}
+}

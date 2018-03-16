@@ -1,0 +1,7 @@
+package com.bridgeit.addAllMethod;
+
+public class Student {
+
+	int rollNo;
+	String name;
+}

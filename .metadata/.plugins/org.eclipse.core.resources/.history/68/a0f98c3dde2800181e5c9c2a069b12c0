@@ -1,0 +1,14 @@
+package com.bridgeit.Java8;
+
+import java.util.Scanner;
+
+public class TestPerson {
+
+	Scanner scanner = new Scanner(System.in);
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

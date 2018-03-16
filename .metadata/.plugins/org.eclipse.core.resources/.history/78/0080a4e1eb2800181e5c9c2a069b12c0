@@ -1,0 +1,17 @@
+package com.bridgeit.userDefinedClassObject;
+
+import java.util.ArrayList;
+
+public class TestStudent {
+
+	public static void main(String[] args) {
+
+		Student student = new Student(1, "abc", "vashi");
+		Student student2=new Student(2, "xyz", "sion");
+		
+		ArrayList<Student> studentList=new ArrayList<>();
+		studentList.addAll(student);
+		studentList.add(student2);
+
+	}
+}

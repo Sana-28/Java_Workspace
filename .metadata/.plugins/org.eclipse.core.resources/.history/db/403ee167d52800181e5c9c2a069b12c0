@@ -1,0 +1,19 @@
+package com.bridgeit.generic;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class TestSoln {
+
+	public static void main(String[] args) {
+		
+		List<String> list=new ArrayList<String>();
+		list.add("sana");
+		list.add(new Integer(5), null);
+		
+		for(Object object: list){
+			String string=(String) object;
+		}
+	}
+
+}

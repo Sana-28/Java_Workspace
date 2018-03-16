@@ -1,0 +1,30 @@
+package com.bridgeit.nonGeneric;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.Scanner;
+
+public class Demo {
+	static Scanner scanner = new Scanner(System.in);
+
+	public static void main(String[] args) {
+
+		System.out.println("Enter size of array:");
+		int n = (int) scanner.nextInt();
+		
+
+		ArrayList list = new ArrayList();
+		System.out.println("Enter elements to add in arrayList:");
+
+		Iterator listItr = list.iterator();
+		while (listItr.hasNext()) {
+			list.add(scanner.next());
+		}
+
+		System.out.println("Elements of list:" + list);
+		System.out.println("Size of list:" + list.size());
+		System.out.println("Check list is empty?:" + list.isEmpty());
+		System.out.println("Hash code value for list" + list.hashCode());
+
+	}
+}

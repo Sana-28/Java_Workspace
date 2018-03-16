@@ -1,0 +1,13 @@
+package com.bridgeit.generic;
+
+import java.awt.List;
+import java.util.*;
+
+public class TestSoln {
+
+	public static void main(String[] args) {
+		
+		List list=new ArrayList();
+	}
+
+}

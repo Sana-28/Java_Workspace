@@ -1,0 +1,15 @@
+package com.bridgeit.hashSet2;
+
+import java.util.HashSet;
+
+public class Test {
+
+	public static void main(String[] args) {
+
+		Book bookObject = new Book(1, "abc", "Stefen");
+
+		HashSet<Book> hash = new HashSet<>();
+		hash.add(bookObject);
+
+	}
+}

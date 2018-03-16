@@ -1,0 +1,11 @@
+package com.bridgeit.genericsType;
+
+public class Test {
+
+	public static  void main(String[] args) {
+		
+		Generics<String> generics=new Generics<>();
+
+	}
+
+}

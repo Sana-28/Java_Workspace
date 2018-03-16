@@ -1,0 +1,16 @@
+package com.bridgeit.linkedList;
+
+import java.util.LinkedList;
+import java.util.List;
+
+public class LinkedListExample {
+
+	public static void main(String[] args) {
+		
+		List<Book> list=new LinkedList<Book>();
+		
+		Book book=new Book(1, 5, "Java", "Steefen")
+		
+	}
+
+}

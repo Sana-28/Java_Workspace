@@ -1,0 +1,10 @@
+package com.bridgeit.arrayList;
+
+public class IteratingCollection {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

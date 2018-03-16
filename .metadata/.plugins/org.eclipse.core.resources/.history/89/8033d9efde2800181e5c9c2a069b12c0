@@ -1,0 +1,17 @@
+package com.bridgeit.Java8;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+public class TestPerson {
+
+	static Scanner scanner = new Scanner(System.in);
+
+	public static void main(String[] args) {
+	
+		Person person=new Person();
+		
+	}
+
+}
