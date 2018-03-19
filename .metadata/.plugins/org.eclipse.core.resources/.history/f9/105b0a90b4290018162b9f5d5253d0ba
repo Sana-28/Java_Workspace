@@ -1,0 +1,42 @@
+package com.bridgeit.comparable$comparator;
+
+public class MovieComparable<T> implements Comparable<T> {
+
+	int rating;
+	String name;
+	String year;
+
+	public MovieComparable(int rating, String name, String year) {
+
+		this.rating = rating;
+		this.name = name;
+		this.year = year;
+	}
+
+	public int getRating() {
+		return rating;
+	}
+
+	String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getYear() {
+		return year;
+	}
+
+	public void setYear(String year) {
+		this.year = year;
+	}
+
+	@Override
+	public int compareTo(T o) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

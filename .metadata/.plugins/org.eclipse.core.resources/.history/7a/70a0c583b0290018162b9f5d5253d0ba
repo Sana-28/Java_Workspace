@@ -1,0 +1,12 @@
+package com.bridgeit.comparator;
+
+import java.util.Comparator;
+
+public class AgeComparator<Student> implements Comparator<Student> {
+
+	Student s1=new
+	@Override
+	public int compare(Student o1, Student o2) {
+		return o1.
+	}
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.bridgeit.threads.Multi"/>
+<fullyQualifiedTypeName name="java.lang.Runnable"/>
+<fullyQualifiedTypeName name="com.bridgeit.threads.MultiRun"/>
+<fullyQualifiedTypeName name="com.bridgeit.threads.TestSleep"/>
+<fullyQualifiedTypeName name="com.bridgeit.threads.TestCallRun"/>
+<fullyQualifiedTypeName name="com.bridgeit.threads.TestCallRun2"/>
+<fullyQualifiedTypeName name="com.bridgeit.threads.TestJoin"/>
+<fullyQualifiedTypeName name="java.lang.Thread"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,19 @@
+package com.bridgeit.threads;
+
+public class Multi extends Thread {
+
+	@Override
+	public void run() {
+
+		System.out.println("Thread is Running..");
+	}
+
+	public static void main(String[] args) {
+
+		Multi t1 = new Multi();
+		t1.start();
+		t1.stop();
+		//t1.getState();
+		System.out.println(t1.getState());
+	}
+}

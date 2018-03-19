@@ -1,0 +1,26 @@
+package com.bridgeit.comparableInterface;
+
+public class Student implements Comparable<Student> {
+
+	int id;
+	String rollNo;
+	String age;
+
+	public Student(int id, String rollNo, String age) {
+		super();
+		this.id = id;
+		this.rollNo = rollNo;
+		this.age = age;
+	}
+
+	public static void main(String[] args) {
+
+	}
+
+	@Override
+	public int compareTo(Student o) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

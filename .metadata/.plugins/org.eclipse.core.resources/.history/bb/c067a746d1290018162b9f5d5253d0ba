@@ -1,0 +1,5 @@
+package com.bridgeit.customAnnotation;
+
+public @interface MyAnnotation {
+
+}

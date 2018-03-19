@@ -1,0 +1,8 @@
+package com.bridgeit.collectionClass;
+
+public class CollectionClass {
+
+	public static void main(String[] args) {
+
+	}
+}

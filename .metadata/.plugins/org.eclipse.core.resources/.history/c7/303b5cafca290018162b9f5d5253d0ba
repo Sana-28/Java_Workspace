@@ -1,0 +1,7 @@
+package com.bridgeit.customAnnotation;
+
+@interface MyAnnotation {
+
+	int value1;
+	String value2;
+}

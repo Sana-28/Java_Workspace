@@ -1,0 +1,26 @@
+package com.bridgeit.hashMap.hashSet;
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Map.Entry;
+
+public class HashMapAndSet {
+
+	public static void main(String[] args) {
+
+		Employee employee = new Employee(1, "abc", "cape Town", "Sion");
+		Map<Integer, Employee> map = new HashMap<>();
+
+		map.put(1, employee);
+
+		for (Map.Entry<Integer, Employee> e : map.entrySet()) {
+
+			int key = e.getKey();
+			Employee emp = e.getValue();
+			System.out.println(e.id);
+			System.out.println(e.name);
+			System.out.println(e.address);
+			System.out.println(e.city);
+		}
+	}
+}

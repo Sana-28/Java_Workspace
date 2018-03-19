@@ -1,0 +1,12 @@
+package com.bridgeit.reflection;
+
+public class TestReflection {
+
+	public static void main(String[] args) {
+
+		ReflectClass obj = new ReflectClass();
+		Class cls = obj.getClass();
+		System.out.println("Class name is:"+obj.getClass());
+
+	}
+}

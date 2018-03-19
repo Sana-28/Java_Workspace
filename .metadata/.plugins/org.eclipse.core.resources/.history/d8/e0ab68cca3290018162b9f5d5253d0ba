@@ -1,0 +1,30 @@
+package com.bridgeit.collectionClass;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.LinkedList;
+import java.util.List;
+
+public class CollectionsClassMax {
+
+	public static void main(String[] args) {
+
+		List<String> list = new ArrayList<>();
+		list.add("Sun");
+		list.add("Moon");
+		list.add("Stars");
+		list.add("Galaxy");
+
+		System.out.println(Collections.min(list));
+
+		List<Integer> listInt = new LinkedList();
+		listInt.add(2);
+		listInt.add(99);
+		listInt.add(599);
+		listInt.add(28);
+
+		System.out.println(Collections.max(listInt));
+		System.out.println(Collections.min(listInt));
+	}
+
+}

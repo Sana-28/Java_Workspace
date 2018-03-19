@@ -1,0 +1,12 @@
+package com.bridgeit.reflection;
+
+public class ReflectClass {
+
+	private String s;
+
+	public ReflectClass() {
+		System.out.println("Default constructor of Reflect class");
+	}
+	
+	
+}

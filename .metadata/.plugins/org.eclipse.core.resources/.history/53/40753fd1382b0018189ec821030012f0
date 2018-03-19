@@ -1,0 +1,17 @@
+package com.bridgeit.threads;
+
+public class MultiRun implements Runnable {
+
+	@Override
+	public void run() {
+		System.out.println("Thread is running.. ");
+
+	}
+
+	public static void main(String[] args) {
+
+		MultiRun m = new MultiRun();
+		Thread t1 = new Thread(m);
+		t1.start();
+	}
+}

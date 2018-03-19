@@ -8,7 +8,7 @@ public class Employee {
 	String city;
 
 	public Employee(int id, String name, String address, String city) {
-		super();
+		//super();
 		this.id = id;
 		this.name = name;
 		this.address = address;

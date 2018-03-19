@@ -1,0 +1,10 @@
+package com.bridgeit.customAnnotation;
+
+public class TestMyAnnotation {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

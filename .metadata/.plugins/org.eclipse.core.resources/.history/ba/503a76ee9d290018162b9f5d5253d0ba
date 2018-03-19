@@ -1,0 +1,5 @@
+#Difference between HashMap and HashTable?
+HashMap and HashTable both are used to store data in key and value form.
+ Both are using hashing technique to store unique keys.
+
+But there are many differences between HashMap and HashTable classes that are given below.
